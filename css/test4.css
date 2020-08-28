@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%;
+}
+*{
+   margin: 0;
+   padding: 0; 
+}
+body{
+
+    font-family: 'Alata', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-news{
+    background-color:lawngreen;
+    width: 100%;
+    height: 100%;
+}
+
+.main-news img:hover{
+    transform: scale(1.05);
+}
+
+.main-news .text h4{
+    text-transform:uppercase;
+    font-size:1.2rem;
+    letter-spacing: .5rem;
+}
+
+.main-news .text p{
+    font-size:3rem;
+}
+
+.main-news .text .read-icon p{
+    font-size:1.5rem;
+}
+
+.main-news .text .read-icon i{
+    top:.5rem;
+}
+
+.text{
+    top: 15rem;
+    position: absolute;
+}
+
+.text .read-icon{
+    display:flex;
+    justify-content: flex-start;
+    /*font-size:1.8rem;*/
+}

@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(auto, auto);
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(auto, auto);
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(auto, auto);
+}
+
+
+
+
+@media(min-width:700px){
+
+    body{
+        background-color: lawngreen;
+
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: minmax(auto, auto);
+    }
+    
+    .grid2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: minmax(auto, auto);
+    }
+
+    .mainGrid{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: minmax(auto, auto);
+    }
+    
+
+}
+
+
+
+
+div{
+    /*background-color: #c5c2c2;*/
+    font-size: 1.6rem;
+    padding:1rem;
+    border: 1px dashed black;
+}
+div:hover{
+    background-color: #dedede;
+
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;/*It works with flex-direction= row */
+    align-items: stretch;/*Its work flex-direction=column */
+}
+div.child{
+    background-color: green;
+    color: yellowgreen;
+    font-size: 3rem;
+    border: none;
+    width: 50rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+
